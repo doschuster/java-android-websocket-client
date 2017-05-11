@@ -115,7 +115,7 @@ public abstract class WebSocketClient {
     /**
      * Custom headers to be included into the handshake
      */
-    private Map<String, String> headers;
+    private Map<String, String> headers = new HashMap<>();
 
     /**
      * Underlying WebSocket connection This instance could change due to an
